@@ -17,6 +17,9 @@ function App() {
         </a>
       </div>
       <h1>Preview It</h1>
+      <p>
+        This is a preview of the <code>previewit</code> repository.
+      </p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
